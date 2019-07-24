@@ -18,10 +18,10 @@ void loop() {
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   if (buttonState == HIGH) {
-    // turn LED on:
+    // turn Buzzer on:
     digitalWrite(buzzer, LOW);
   } else {
-    // turn LED off:
+    // turn Buzzer off:
     digitalWrite(buzzer, HIGH);
   }
 }
