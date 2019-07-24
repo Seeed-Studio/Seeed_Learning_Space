@@ -6,6 +6,7 @@ const int pinAdc = A0;
 void setup()
 {
     Serial.begin(115200);
+    //Remeber to choose baud rate at 115200 for serial monitor/plotter
     //Serial.println("Grove - Sound Sensor Test...");
 }
 
