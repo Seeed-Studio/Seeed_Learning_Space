@@ -1,27 +1,26 @@
 // constants won't change. They're used here to set pin numbers:
-const int buttonPin = 2;     // the number of the pushbutton pin
+const int vibrationPin = 2;     // the number of the vibration pin
 const int buzzer =  3;      // the number of the buzzer pin
 
 // variables will change:
-int buttonState = 0;         // variable for reading the pushbutton status
+int state = 0;         // variable for reading the viabration sensor status
 
 void setup() {
-  // initialize the LED pin as an output:
+  // initialize the buzzer  as an output:
   pinMode(buzzer, OUTPUT);
-  // initialize the pushbutton pin as an input:
-  pinMode(buttonPin, INPUT);
+  // initialize the viabraiton as an input:
+  pinMode(vibrationPin, INPUT);
 }
 
 void loop() {
-  // read the state of the pushbutton value:
-  buttonState = digitalRead(buttonPin);
+  // read the state of the viabration value:
+  state = digitalRead(vibrationPin);
 
-  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
-  if (buttonState == HIGH) {
-    // turn Buzzer on:
+  if (state == HIGH) {
+    // turn Buzzer off:
     digitalWrite(buzzer, LOW);
   } else {
-    // turn Buzzer off:
+    // turn Buzzer on:
     digitalWrite(buzzer, HIGH);
   }
 }
