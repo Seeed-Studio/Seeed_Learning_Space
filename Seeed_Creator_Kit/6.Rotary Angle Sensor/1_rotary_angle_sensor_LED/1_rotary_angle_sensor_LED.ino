@@ -1,7 +1,7 @@
 /*macro definitions of Rotary angle sensor and LED pin*/
 
 #define ROTARY_ANGLE_SENSOR A0
-#define LED 3  //the Grove - LED is connected to PWM pin D3 of Arduino
+#define LED 4  //the Grove - LED is connected to PWM pin D3 of Arduino
 #define ADC_REF 5 //reference voltage of ADC is 5v.If the Vcc switch on the seeeduino
                     //board switches to 3V3, the ADC_REF should be 3.3
 #define GROVE_VCC 5 //VCC of the grove interface is normally 5v
