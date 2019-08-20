@@ -2,7 +2,7 @@
 
 /*macro definitions of magnetic pin and LED pin*/
 #define MAGNECTIC_SWITCH 2
-#define LED 13//the on board LED of the Arduino or Seeeduino
+#define LED 3
 
 void setup()
 {
