@@ -11,6 +11,10 @@ Choose any of the following
 -  Directly search the U8g2 installation in the library management of Arduino IDE.
 - Making download on [Here](https://github.com/olikraus/U8g2_Arduino) , then unzip into Arduino libraries folder.
 
+## Notic
+
+**If you are working on a project in Arduino UNO (Ateml 328p), you can only use the software I2C port.**
+
 ## Usage
 
 You can use all the examples provided by U8g2. Here's how to construct an instance then make Grove - OLED Display 0.96''(SSD1315)V1.0 work.
